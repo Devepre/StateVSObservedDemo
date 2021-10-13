@@ -15,6 +15,7 @@
 		8E91E2062717042300B63634 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91E2052717042300B63634 /* ViewModel.swift */; };
 		8E91E20C271707D100B63634 /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91E20B271707D100B63634 /* ViewC.swift */; };
 		8E91E20E27170AE200B63634 /* ViewD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91E20D27170AE200B63634 /* ViewD.swift */; };
+		8E91E212271711EF00B63634 /* ActualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E91E211271711EF00B63634 /* ActualView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8E91E2052717042300B63634 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		8E91E20B271707D100B63634 /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
 		8E91E20D27170AE200B63634 /* ViewD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewD.swift; sourceTree = "<group>"; };
+		8E91E211271711EF00B63634 /* ActualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				8E91E2032717041500B63634 /* ViewB.swift */,
 				8E91E20B271707D100B63634 /* ViewC.swift */,
 				8E91E20D27170AE200B63634 /* ViewD.swift */,
+				8E91E211271711EF00B63634 /* ActualView.swift */,
 				8E91E2052717042300B63634 /* ViewModel.swift */,
 				8E91E1F62717037100B63634 /* Assets.xcassets */,
 				8E91E1FB2717037100B63634 /* Info.plist */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E91E2062717042300B63634 /* ViewModel.swift in Sources */,
+				8E91E212271711EF00B63634 /* ActualView.swift in Sources */,
 				8E91E20E27170AE200B63634 /* ViewD.swift in Sources */,
 				8E91E1F52717037000B63634 /* ContentView.swift in Sources */,
 				8E91E2042717041500B63634 /* ViewB.swift in Sources */,

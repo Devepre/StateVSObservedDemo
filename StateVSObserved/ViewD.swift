@@ -11,16 +11,7 @@ struct ViewD: View {
     @ObservedObject private var model = ViewModel.shared
     
     var body: some View {
-        VStack {
-            Button("Observed Object shared", action: model.performJob)
-                .padding()
-            
-            HStack {
-                Text("Result:")
-                Text("\(model.couner)")
-            }
-            .foregroundColor(model.couner == 0 ? .red : .primary)
-        }
+        ActualView(model: model, text: "Observed Object shared")
     }
 }
 
