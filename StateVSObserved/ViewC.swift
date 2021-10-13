@@ -11,16 +11,7 @@ struct ViewC: View {
     @StateObject private var model = ViewModel()
     
     var body: some View {
-        VStack {
-            Button("State Object", action: model.performJob)
-                .padding()
-            
-            HStack {
-                Text("Result:")
-                Text("\(model.couner)")
-            }
-            .foregroundColor(model.couner == 0 ? .red : .primary)
-        }
+        ActualView(model: model, text: "State Object")
     }
 }
 
