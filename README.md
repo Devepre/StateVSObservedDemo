@@ -1,4 +1,4 @@
-# StateVSObservedDemo
+# StateObject vs ObservedObject Demo
 Demo app for SwiftUI state management
 
 Run the app and push 3 buttons to increase each counter.
